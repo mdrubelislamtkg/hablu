@@ -1,0 +1,67 @@
+.mobilebox{
+    width: 200px;
+    height: 250px;
+    background: white;
+    border-radius: 5px;
+padding: 20px;
+margin-top: 50px;
+position: relative;
+}
+
+  
+body{
+    background: rgb(226, 226, 226);
+    font-family:roboto ;
+}
+.boxheding{
+margin-left: 11px;
+font-size: 22px;
+}
+.ul li{
+    margin-left: -12px;
+    margin-top: 10px;
+    color: #818181;
+}
+.icon{
+    font-size: 62px;margin-left: -1px;
+    color: rgb(84, 40, 243);
+}
+
+
+
+
+
+
+
+
+
+
+    section#mobilebox{
+        width: 200px;
+        height: 250px;
+        background: white;
+        border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+    }
+    
+      
+    body{
+        background: rgb(226, 226, 226);
+        font-family:roboto ;
+    }
+    .boxheding{
+    margin-left: 11px;
+    font-size: 22px;
+    }
+    .ul li{
+        margin-left: -12px;
+        margin-top: 10px;
+        color: #818181;
+    }
+    .icon{
+        font-size: 62px;margin-left: -1px;
+        color: rgb(84, 40, 243);
+    }
+    

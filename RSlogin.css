@@ -1,0 +1,49 @@
+body{
+    background: #00ff59;
+}
+.loginBox {
+    background: white;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 200px;
+ 
+
+    
+}
+.loginBox h1 {
+    color: red;
+    text-align: center;
+    font-family: arial black;
+    text-shadow: 0px 0px 4px;
+}
+.loginBox input {
+    width: 89%;
+    background: #f2f2f2;
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+
+}
+.btn  {
+    width: 100% !important;
+    background: rgb(17, 240, 40) !important;
+
+
+}
+    
+.link {
+    color: #ddd;
+    font-size: 20px;
+    text-align: center !important;
+
+
+
+}
+.link a {
+    color: rgb(12, 233, 45);
+    text-decoration: none;
+}

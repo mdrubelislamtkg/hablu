@@ -1,0 +1,58 @@
+
+body{
+background: #8b9c86;    
+}
+.loginBox {
+background: white;
+width: 400px;
+height: 400px;
+padding: 50px;
+overflow: hidden;
+margin: auto;
+margin-top: 250px;
+box-shadow: 0px 0px 50px -7px black;
+
+}
+.loginBox input {
+    width: 89%;
+    display: block;
+    padding: 20px ;
+    padding-left: 20px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+font-size: 16px;
+
+}
+.RigisterLink{
+text-align: center;
+font-size: 18px;
+}
+.LoginBtn {
+    background:linear-gradient(#00B242, #088335) !important;
+    color: white;
+    width: 100% !important;
+}
+
+.LoginBtn:hover {
+    background: red !important;
+    cursor: pointer;
+}
+.RigisterLink span{
+color:  #eac1c1;
+}
+.RigisterLink a{
+    color: rgb(132, 244, 138);
+    text-decoration: none;
+  
+}
+.loginBox h1 {
+    text-align: center;
+    font-family: arial black;
+    margin: auto;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px black;
+    font-size: 30px;
+}

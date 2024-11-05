@@ -1,0 +1,16 @@
+.bdtitlle{
+ 
+    width: 600px;
+    height: 400px;
+    border:1px solid red;
+    background:url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+
+}
+body b{
+    font-size: 30px;
+    color: red;
+    font-style: italic;
+}

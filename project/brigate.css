@@ -1,0 +1,547 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: Arial;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: arial;
+
+}
+section{
+    padding: 80px 0px;
+}
+
+
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.phone {
+    width: 210px;
+    float: left; 
+    padding: 17px 0px;
+    margin-right: 8px;
+    border-left:1px solid #ddd ;
+   
+ 
+}
+.topBermain{
+    background-color: #f5f5f5;
+}
+
+.email {
+    width: 740px;
+    float: left;
+    padding: 18px 0px;
+    border-left:1px solid #ddd ;
+}
+
+.social {
+    width: 150px;
+    float: left;
+    transition: 0.3s;
+}
+.topbarWrapper {
+    overflow: hidden;
+}
+.social a {
+    padding: 15px;
+    display: block;
+    float: left;
+    border-right: 1px solid #ddd;
+    color: black;
+}
+.social a:first-child{
+    border-left: 1px solid #ddd;
+}
+.email i {
+    color: #FF5200;
+    font-size: 17px;
+
+}
+.phone i {
+    font-size: 18px;
+    color: #FF5200;
+    
+}
+.social i:hover{
+    color: #FF5200;
+}
+.primaryWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 18px;
+}
+
+.menu {
+    width: 960px;
+    float: left;
+}
+
+ul.mainMenuItem {
+    list-style: none;
+    float: right;
+}
+
+ul.mainMenuItem li {
+    float: left;
+}
+
+ul.mainMenuItem li a {
+    text-decoration: none;
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    padding: 30px 15px;
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+}
+ul.mainMenuItem li #seachbtn i{
+   font-weight: 900;
+   font-size: 20px;
+ 
+}
+ul.mainMenuItem li a:hover{
+    color: #FF5200;
+}
+
+
+
+
+
+
+#homeSlider{
+    background: url(slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 0px;
+}
+.slidercontent {
+    color: wheat;
+    width: 500px;
+ 
+}
+
+.slidercontent h1 {
+  
+font-weight: 900px;
+text-transform: uppercase;
+margin-bottom: 30px;
+margin-top: 120px;
+float: left;
+line-height: 34px;
+
+}
+.slidercontent p{
+    font-weight: 400;
+    line-height: 25px;
+    width: 450px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#worksliderbtn{
+    background: #FF5200;
+    color: wheat;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-bottom: 120px;
+    transition: 0.5s;
+  
+}
+#worksliderbtn:hover{
+   
+    color: white;
+}
+
+
+
+
+
+.sliderNav{
+    width: 2000px;
+    margin: auto;
+    padding:30px 0px ;
+    display: grid;
+    place-items: center;
+   display: flex;
+   margin-left: 600px;
+}
+ 
+.sliderNav span{
+    width: 15px;
+    height: 15px;
+    border: 4px solid #FF5200;
+    background: transparent;
+    display: block;
+   
+    border-radius: 100%;
+ 
+   cursor: pointer;
+   margin: 5px 5px;
+
+
+}
+
+
+
+
+#Services{
+    background: #f5f6f6;
+}
+
+.sboxWrapper {
+    overflow: hidden;
+}
+
+.singlebox {
+    width: 247px;
+    background:white;
+    padding: 15px;
+    float: left;
+    margin-right: 30px;
+    transition: all 0.5ms;
+    
+}
+.singlebox:hover{
+background: #FF5200;
+color:white !important;
+cursor: pointer;
+
+}
+
+.singlebox:hover h2  {
+    color: white;
+}
+.singlebox:hover .sboxIcon i{
+    color: white!important;
+}
+.singlebox:hover .sboxLink a {
+    color: white!important;
+}
+.sboxTitle h2 {
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    color: #333;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.sboxTitle {
+    width: 166px;
+    margin: auto;
+    text-align: center;
+}
+.sboxIcon{
+    text-align: center;
+    font-size: 50px;
+    top: 10px;
+    color: #FF5200;
+    margin: 25px 0px;
+}
+.sboxDesc{
+    text-align: center;
+    margin: 25px 0px;}
+
+.sboxLink{
+    text-align: center;
+    margin: 25px 0px;
+ 
+}
+.sboxLink a{
+    text-decoration: none;
+    color: #FF5200;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+.teamContents {
+    overflow: hidden;
+}
+
+.teamImage {
+    width: 535px;
+    float: left;
+}
+
+.teamImage img {
+    max-width: 100%;
+}
+
+.teamDetails {
+    width: 535px;
+    float: right;
+}
+.tilteDesc h2 {
+    margin-bottom: 12px;
+}
+
+.tilteDesc p {
+    color: #666;
+    line-height: 23px;
+    margin-bottom: 15px;
+    width: 451px;
+    font-size: 18px;
+}
+.teamFacilitie{
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.teamFacilitie ul {
+    margin: auto;
+    padding: 0px;
+    list-style: none;
+    width: 260px;
+    float: left;
+    font-size: 20px;
+}
+
+.teamFacilitie ul li {
+    line-height: 40px;
+}
+.teamFacilitie ul li i{
+    font-size: 15px;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+.teamFacilitie ul li a{
+    color: #666;
+    text-decoration: none;
+    font-weight: 900px;
+    transition: 0.3s;
+}
+.teamFacilitie ul li a:hover{
+    color: #FF5200;
+}
+.teamcontactBtn a{
+    background: #FF5200;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    border-radius: 3px;
+    transition: all 0.5s;
+
+}
+.teamcontactBtn a:hover {
+   background: rgb(4, 237, 78);
+   color: white;
+}
+#whyChoosUs{
+    background:linear-gradient(#00000052,#00000052), url(slide-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+
+
+
+
+.iconWrapper {
+    overflow: hidden;
+}
+
+.singleIcons {
+    width: 250px;
+    text-align: center;
+  float: left;
+  margin-right:27px;
+}
+
+.sIcon {
+    font-size: 50px;
+}
+
+.singleIcons h2 {
+    font-size: 51px;
+    font-weight: 900;
+}
+
+.singleIcons h4 {
+    font-size: 20px;
+    
+}
+.secTitle {
+    text-align: center;
+
+ 
+}
+
+#blogPosts{
+    background: #f5f6f6;
+}
+
+.secTitle h2 {
+    font-size: 50px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    position: relative;
+}
+.secTitle p{
+    width: 550px;
+    margin: auto;
+    line-height: 25px;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.postWrapper {
+    overflow: hidden;
+}
+
+.singlePost {
+    width: 270px;
+    overflow: hidden;
+    float: left;
+  margin-right: 7px;
+    
+}
+
+
+
+.singlePost img {
+    width: 100%;
+}
+
+.postImg {
+    margin-bottom: 12px;
+}
+.postInfo h3{
+    font-size:20px ;
+    margin-bottom: 10px;
+
+}
+
+.postInfo h3{
+    font-size: 16px;
+}
+.postInfo p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.singleTable {
+    width: 351px;
+    overflow: hidden;
+    float: left;
+   color: black;
+   padding: 23px;
+}
+#pricing{
+    background: white;
+}
+.SecTitle{
+    text-align: center;
+   
+ 
+}
+.pricings{
+    
+}
+.SecTitle h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    position: relative;
+     color: rgb(43, 40, 40);
+
+}
+.SecTitle p{
+width: 550px;
+    margin: auto;
+    line-height: 25px;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 40px;
+}
+.singleTable{
+    background: white;
+    margin-right: 19px;
+}
+
+.singleTable h3 {
+font-size: 25px;
+}
+
+.singleTable h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.singleTable ul{
+    list-style: none;
+}
+.singleTable ul li{
+    line-height: 35px;
+   font-weight: 400;
+   font-size: 22px;
+   
+}
+.singleTable{
+    background: #ddd;
+}
+.singleTable ul li i{
+    font-size: 25px;
+    color: #FF5200;
+}
+#tableGatstartBtn{
+    background: #FF5200;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius:4px;
+    letter-spacing: -0.5q   px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+#tableGatstartBtn:hover{
+    background: rgb(4, 237, 78);
+    color:white ;
+    cursor: pointer;
+}
+.idealeftImg{
+    background: url("../download.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+}
+#sTable{
+    margin-bottom: 20px;
+}

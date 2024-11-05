@@ -1,0 +1,95 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-family: work Sans;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: Oswald;
+}
+
+#topber {background: #f5f5f5;
+    padding : 20px  0px;
+    
+}
+.container {
+    width: 966px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+.phone-email-praient{
+    overflow: hidden;
+}
+.emil {
+    width: 400px;
+    float: left;
+}
+
+.phone {
+    width: 200px;
+    float: left;
+}
+
+.social {
+    float: right;
+}
+
+.social a {
+    padding: 10px 10px;
+    border-right: 1px solid #444;
+
+}
+.logo{
+    width: 150px;
+    float: left;
+}
+.mainMenu{
+list-style: none;
+float: right;
+
+}
+.mainMenu li{
+display:inline-block;padding: 10px 15px;
+background:initial;
+
+}
+.menu{
+    float:right;
+    width: 700px;
+}
+.primarymenu{
+    
+    overflow: hidden;
+}
+.backroundimg{
+    background-image:url(slide-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     height: 600px;
+.titlle{
+   width: 450px;
+    padding: 100px 0px;
+    color: rgb(247, 243, 243);
+    float: left;
+
+}
+.titlle h1{
+    font-size: 45px;
+    margin-bottom: 35px;
+    font-weight: 500;
+
+    
+}
+.titlle button{
+    margin-top: 33px;
+    padding: 14px;
+    background: red;
+    font-size: 18px;
+    border: none;
+}
+.titlle p{
+    margin: 10px;
+    line-height: 28px;
+}

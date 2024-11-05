@@ -1,0 +1,51 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+body{
+    
+    font-size:16px;
+    background-color: rgb(228, 228, 228);
+    font-family: Arial;
+    
+}
+.quality{
+    width: 200px;
+    height: 300px;
+    background: white;
+    padding: 20pX 40px;
+}
+.quality h1{
+    font-size: 20px;
+    margin-bottom: 12px;
+    line-height: 30px;
+    
+}
+.quality p{
+    font-size: 18px;
+    line-height: 20px;
+}
+.iconbox{
+    width: 100px;
+height: 100px;
+background: red;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.iconbox i{
+    font-size: 54px;
+    color: white;
+
+}
+.qualites{
+    display: flex;
+    justify-content: space-around;
+}
+.contener{
+    width: 1170px;
+    margin: auto;
+
+}

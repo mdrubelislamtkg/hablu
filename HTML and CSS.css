@@ -1,0 +1,161 @@
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: work sans;
+font-size: 16px;
+}
+h1,h2 h3,h4,h5,h6{
+    font-family: Oswald, sans-serif; font-weight: 500;
+}
+
+
+section{
+    padding: 70px 0px;
+
+}
+
+
+
+.topBarMain{
+    background: #f5f5f5;
+}
+.container {
+    width: 1140px;
+
+    padding: 15px;
+    padding-left: 15px;
+    margin: auto;
+}.phone {
+    width: 200px;
+    padding: 15px 0px;
+    float: left;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.email {
+    width: 673px;
+    float: left;
+    padding: 15px px;
+}
+
+.social {
+    width: 210px;
+    float: left;
+    transition: .3s;
+
+}
+.topbarWrapp {
+    overflow: hidden;
+}
+.social a {
+    display: block;
+    float:left;
+    padding: 15px;
+    border-radius: 1px solid #ddd;
+    color: black;
+}
+
+.phone i{
+    color: #FF5200;
+    
+}
+.email i{
+    color: #FF5200;
+    padding: 15px 0px;
+}
+.social a :first-child {
+    border-left: 1px solid #ddd;
+}
+.social i:hover {
+    color: #FF5200;
+}
+.social i {
+    font-size: 20px;
+}
+.primaryWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.Logo img {
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    
+}
+.menu {
+    width: 900px;
+    float: left;
+}
+
+ul.mainMenuItem {
+    list-style: none;
+    float: right;
+}
+
+ul.mainMenuItem  li {
+    float: left;
+}
+ul.mainMenuItem  li a {
+    text-decoration: none;
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    padding:30px 15px;
+    color: rgb(12, 12, 12);
+    font-weight: 500;
+    transition: 0.5s;
+}
+#searchBtn{
+    margin-top: 3px;
+}
+ul.mainMenuItem  li a:hover {
+    color: #FF5200;
+}
+section#homeslider {
+    background-image: url('./project/slide-1.jpg');
+  
+    background-repeat: no-repeat;
+    background-position: 100%;
+padding: 0px;
+}
+.sliderContent{
+    color: white;
+    width: 600px;
+
+
+}
+.sliderContent h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom:30px;
+    margin-top: 120px;
+    float: left;
+}
+.sliderContent p{
+    font-weight: 600;
+    line-height: 25px;
+    width: 490px;
+    margin-bottom: 30px;
+}
+#sliderWorkButton {
+    background: #FF5200;
+    color: white;
+    border: none;
+    padding:15px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-bottom: 30px;
+
+
+}
+#services{
+ background:  #f5f6f6;  
+}
